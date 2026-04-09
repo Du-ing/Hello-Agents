@@ -132,14 +132,7 @@ class PlanAndSolveAgent:
 
 
 if __name__ == "__main__":
-    # 创建LLM客户端实例
     llm_client = HelloAgentsLLM()
-    
-    # 创建PlanAndSolveAgent实例
     agent = PlanAndSolveAgent(llm_client)
-    
-    # 定义一个复杂问题
     question = "一个水果店周一卖出了15个苹果。周二卖出的苹果数量是周一的两倍。周三卖出的数量比周二少了5个。请问这三天总共卖出了多少个苹果？"
-    
-    # 运行智能体来回答问题
     agent.run(question)

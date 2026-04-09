@@ -1,4 +1,4 @@
-from system import REACT_PROMPT_TEMPLATE
+from agent_prompt import REACT_PROMPT_TEMPLATE
 from llm_client import HelloAgentsLLM
 from tools.tool_executor import ToolExecutor
 from tools.search import baidu_search
