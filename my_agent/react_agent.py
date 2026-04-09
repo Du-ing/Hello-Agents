@@ -1,5 +1,5 @@
 from system import REACT_PROMPT_TEMPLATE
-from hello_agent_llm import HelloAgentsLLM
+from llm_client import HelloAgentsLLM
 from tools.tool_executor import ToolExecutor
 from tools.search import baidu_search
 import re
