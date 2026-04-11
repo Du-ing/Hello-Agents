@@ -1,3 +1,7 @@
+"""
+AutoGen 软件开发团队协作案例
+"""
+
 import os
 import asyncio
 from autogen_ext.models.openai import OpenAIChatCompletionClient
